@@ -9,6 +9,7 @@ export default function App() {
     <div>
       <div className={styles.background} />
 
+      {/* CHOOSE THE NUMBER OF PAGES */}
       <Parallax pages={5}>
         <ParallaxLayer
           // make it sticky from the start to almost the end of the page
@@ -49,6 +50,19 @@ export default function App() {
         >
           <div className={`${styles.card} ${styles.parallax} ${styles.blue}`}>
             <p>Neither am I</p>
+          </div>
+        </ParallaxLayer>
+
+        {/* // ? NOT STICKY LAYER */}
+        <ParallaxLayer
+          sticky={{ start: 4, end: 4 }}
+          offset={0}
+          speed={0.2}
+          // style={{ ...alignCenter, justifyContent: 'flex-start' }}
+          style={{ ...alignCenter, justifyContent: 'center' }}
+        >
+          <div className={styles.scrollText}>
+            <p>The End...</p>
           </div>
         </ParallaxLayer>
       </Parallax>

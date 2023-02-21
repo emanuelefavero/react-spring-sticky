@@ -1,5 +1,5 @@
 .background {
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(#0b042f, #02041a);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -30,21 +30,21 @@
 
 .sticky {
   margin-left: 15%;
-  background-color: #ff6d6d;
+  background-color: #af4dff;
 }
 
 .blue {
-  background-color: #5b65ad;
+  background-color: #6174ff;
   color: white;
 }
 
 .purple {
-  background-color: #9d65d0;
+  background-color: #ff3273;
 }
 
 @media (max-width: 750px) {
   .card {
-    width: 40%;
+    width: 20%;
   }
 
   .parallax {
