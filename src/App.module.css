@@ -18,8 +18,9 @@
   justify-content: center;
   align-items: center;
   font-size: 1.25rem;
-  height: 10rem;
-  width: 25%;
+  height: 250px;
+  width: 20%;
+  padding: 1rem;
   text-align: center;
   border-radius: 10px;
 }
@@ -43,10 +44,6 @@
 }
 
 @media (max-width: 750px) {
-  .card {
-    width: 20%;
-  }
-
   .parallax {
     margin-right: 1.5rem;
   }
