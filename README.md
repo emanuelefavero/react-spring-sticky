@@ -2,6 +2,10 @@
 
 A react-spring sticky effect built with React, Typescript, and Vite.
 
+## Live Demo
+
+- [https://react-spring-sticky.vercel.app/](https://react-spring-sticky.vercel.app/)
+
 ## Installation
 
 - Clone the repo and `cd` into it, then run:
